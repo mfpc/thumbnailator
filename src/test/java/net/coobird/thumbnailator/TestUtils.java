@@ -17,8 +17,9 @@ public class TestUtils
 	 * @param sourceFile		The source file.
 	 * @param destFile			The destination file.
 	 * @throws IOException		If an IOException is thrown.
+	 * just a test !
 	 */
-	public static void copyFile(File sourceFile, File destFile) throws IOException
+	 public static void copyFile(File sourceFile, File destFile) throws IOException
 	{
 		FileInputStream fis = new FileInputStream(sourceFile);
 		FileOutputStream fos = new FileOutputStream(destFile);
